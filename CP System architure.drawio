@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.6">
   <diagram name="Page-1" id="QofgEdnDiV-2oy7KmfAU">
-    <mxGraphModel dx="2365" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,7 +188,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5n_v-IrkQmJuhdSU5B9o-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Sentry Task&lt;div&gt;Priority: High&amp;nbsp;&lt;/div&gt;&lt;div&gt;In: I2C Gyro/Euler&lt;/div&gt;&lt;div&gt;Out: Spasm Flag, Pitch&lt;/div&gt;&lt;div&gt;Operation: Zero Crossing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="5n_v-IrkQmJuhdSU5B9o-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Sentry Task&lt;div&gt;Priority: High&amp;nbsp;&lt;/div&gt;&lt;div&gt;In: I2C Gyro/Euler&lt;/div&gt;&lt;div&gt;Out: Spasm Flag, Pitch&lt;/div&gt;&lt;div&gt;Operation: Zero Crossing&lt;/div&gt;&lt;div&gt;Operation:Reset Flag after timeout&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="270" x="1125" y="280" as="geometry" />
         </mxCell>
         <mxCell id="5n_v-IrkQmJuhdSU5B9o-77" edge="1" parent="1" source="5n_v-IrkQmJuhdSU5B9o-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5n_v-IrkQmJuhdSU5B9o-76" value="Features">
