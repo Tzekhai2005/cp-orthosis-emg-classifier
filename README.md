@@ -30,8 +30,8 @@ Children with cerebral palsy (CP) often experience muscle weakness and fatigue d
 
 - **Microcontroller:** ESP32-S3
 - **EMG Sensors:** 4x (2 forearm, 2 upper arm)
-- **Additional Sensors:** Flex sensors, IMU
-- **Actuation:** Motors with wire-pull mechanism
+- **Additional Sensors:** Flex sensors, 
+- **Actuation:** Motors (FOC)
 
 ## Project Structure
 ```
