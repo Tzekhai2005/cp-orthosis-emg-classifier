@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.6">
   <diagram name="Page-1" id="QofgEdnDiV-2oy7KmfAU">
-    <mxGraphModel dx="860" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="5n_v-IrkQmJuhdSU5B9o-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Core 1 Reflexes&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="2110" width="640" x="120" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="5n_v-IrkQmJuhdSU5B9o-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Main Task 1kHz&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;Priority:High&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="5n_v-IrkQmJuhdSU5B9o-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Main Task 500Hz&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;Priority:High&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="1810" width="600" x="140" y="260" as="geometry" />
         </mxCell>
         <mxCell id="5n_v-IrkQmJuhdSU5B9o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" value="&lt;h1&gt;&lt;/h1&gt;&lt;h6&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;FOC Computation ISR 20kHz&lt;/font&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Priority: Critical&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Trigger: MCPWM timer&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;In: Target Torque&lt;/div&gt;&lt;div style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Out: PWM Duty Cycles&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/h6&gt;" vertex="1">
@@ -22,7 +22,7 @@
         <mxCell id="5n_v-IrkQmJuhdSU5B9o-63" edge="1" parent="1" source="5n_v-IrkQmJuhdSU5B9o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5n_v-IrkQmJuhdSU5B9o-62" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5n_v-IrkQmJuhdSU5B9o-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;font face=&quot;Helvetica&quot;&gt;Wait for EMG DMA acquisition (2kHz)&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;1. Get EMGbic and EMGtri (2 Samples Each)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;2. Get Encoder&amp;nbsp;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;&lt;font&gt;θ&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;,w&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;3. &lt;/span&gt;&lt;font&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;Calculate actual&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;θ,w&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="5n_v-IrkQmJuhdSU5B9o-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;font face=&quot;Helvetica&quot;&gt;Wait for EMG DMA acquisition (2kHz)&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;1. Get EMGbic and EMGtri (4 Samples Each)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;2. Get Encoder&amp;nbsp;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;&lt;font&gt;θ&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;,w&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;3. &lt;/span&gt;&lt;font&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;Calculate actual&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10);&quot;&gt;θ,w&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="253.75" x="290.62" y="320" as="geometry" />
         </mxCell>
         <mxCell id="AxO5fajX1P1QVJjXe0hQ-10" edge="1" parent="1" source="5n_v-IrkQmJuhdSU5B9o-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AxO5fajX1P1QVJjXe0hQ-8" value="">
@@ -45,7 +45,7 @@
         <mxCell id="5n_v-IrkQmJuhdSU5B9o-55" edge="1" parent="1" source="5n_v-IrkQmJuhdSU5B9o-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5n_v-IrkQmJuhdSU5B9o-54" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5n_v-IrkQmJuhdSU5B9o-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Torque Calculation&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;div&gt;T= G x MAVb-MAVt - D x w + KsinP&lt;/div&gt;&lt;div&gt;T= Target Torque&lt;/div&gt;&lt;div&gt;G=Gain&lt;/div&gt;&lt;div&gt;D=Damping&lt;/div&gt;&lt;div&gt;K=Gravity&amp;nbsp;&lt;/div&gt;&lt;div&gt;P =Pitch&lt;/div&gt;" vertex="1">
+        <mxCell id="5n_v-IrkQmJuhdSU5B9o-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Torque Calculation&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;div&gt;T= G x (MAVb-MAVt) - D x w + KsinP&lt;/div&gt;&lt;div&gt;T= Target Torque&lt;/div&gt;&lt;div&gt;G=Gain&lt;/div&gt;&lt;div&gt;D=Damping&lt;/div&gt;&lt;div&gt;K=Gravity&amp;nbsp;&lt;/div&gt;&lt;div&gt;P =Pitch&lt;/div&gt;" vertex="1">
           <mxGeometry height="113" width="210" x="312.5" y="1200" as="geometry" />
         </mxCell>
         <mxCell id="5n_v-IrkQmJuhdSU5B9o-75" edge="1" parent="1" source="5n_v-IrkQmJuhdSU5B9o-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="5n_v-IrkQmJuhdSU5B9o-74">
